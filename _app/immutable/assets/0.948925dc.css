@@ -201,8 +201,8 @@ object {
 }
 img,
 video {
-  width: 630px;
-  height: 420px;
+  width: 450px;
+  height: 380px;
 }
 [hidden] {
   display: none;
