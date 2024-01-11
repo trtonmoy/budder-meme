@@ -839,11 +839,21 @@ html {
   justify-content: space-evenly;
   align-items: center;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
 
 @media only screen and (max-width: 576px) {
   .partners-div {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 }
